@@ -14,6 +14,10 @@ Runtime admission and operator approval. Preserve original NAS and backup
 content. The [historical design record](docs/evidence/INDEX.json) documents the
 legacy verifier's known limitations.
 
+For planner issues, use the [synthetic walkthrough](README_GETTING_STARTED.md)
+to reproduce the behavior and include the exit status. Keep real paths and
+media out of the report.
+
 <details>
 <summary>Historical Python toolkit reference</summary>
 
@@ -205,15 +209,6 @@ Once migration is complete, you can add:
 - **Auto-tagging**: YOLO object detection
 - **n8n automation**: Automated ingest for new footage
 - **Web UI**: Streamlit search interface
-
-## Support
-
-If you encounter issues:
-
-1. Check `make help` for all commands
-2. Review log files in `analysis_results/`
-3. Run with `--dry-run` to preview
-4. Open an issue on GitHub with logs
 
 ## License
 
